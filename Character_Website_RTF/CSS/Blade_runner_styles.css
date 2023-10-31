@@ -1,0 +1,84 @@
+/* Google fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:ital,wght@0,500;1,700&display=swap');
+/* Header of page */
+header{
+    background-color:#0B325E;
+    text-align: center;
+    margin: -10px -10px;
+    padding: 3vw;
+}
+/* Nav Bar */
+nav ul{
+    list-style-type: none;
+    margin: -10px -10px;
+    padding: 20px ;
+    overflow: hidden;
+    background-color:lightskyblue;
+  }
+    nav li {
+    float: left;
+  }
+  nav li a, nav a:visited {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Hover Colour*/
+  nav li a:hover {
+    background-color: #05F26C;
+  }
+/* Sticky nav bar *floats above page */
+.Sticky {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+h1,h2,h3{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+/* entire section for page */
+section{
+    font-size: larger;
+    text-align: center;
+    border: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px 10px;
+    -webkit-text-stroke-width: 0.50px;
+    -webkit-text-stroke-color: black; 
+    background-color:#8FAFD9;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 36px 27px 42px 27px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 36px 27px 42px 27px rgba(0,0,0,0);
+}
+/* Body *effects whole page */
+body{
+    color:white;
+    background-color: #1B1259;  
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* footer */
+footer{
+    text-align: center;
+    margin: -10px;
+    padding: 10vw;
+    background-color:#0B325E;
+}
+a{
+    color: royalblue;
+  }
+  a:visited{
+    color: orchid;
+  }
+  a:hover{
+    color: #05F26C;
+  }
+  a:active{
+  color: darkorchid;
+  }
