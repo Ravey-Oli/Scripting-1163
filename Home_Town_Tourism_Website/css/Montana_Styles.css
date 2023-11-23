@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:ital,wght@1,500&display=swap');
+
+header{
+    background-image: url('../images/Polson_Bay_01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-stroke: 0.5px black
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke: 0.3px black
+}
+#AboutHeader{
+    background-image: url('../images/backgrounds/Flathead_lake_03.jpg');
+}
+#AttractionsHeader{
+    background-image: url('../images/backgrounds/Flathead_lake_02.jpg');
+}
+#CommunityHeader{
+    background-image: url('../images/backgrounds/Land_scape_01.jpg');
+}
+#BusinessesHeader{
+    background-image: url('../images/backgrounds/Polson_Land_Scape.jpg');
+}
+
+.bg-blue{
+    background-color:#3B7D8C;
+}
+.bg-green{
+    background-color:#788C2E
+}
+.bg-orange{
+    background-color: #F28963;
+}
+.bg-red{
+    background-color: #BF4B54;
+}
+.bg-green_02{
+   background-color:  #8CDD10;
+}
+
+.nav-link{
+    color:white !important;
+}
+.navbar-brand{
+    color:whitesmoke !important;
+}
+.MSP{
+    float: right;
+}
+
+footer{
+    background-color: #75B8BF;
+}
+footer a, footer a:visited{
+    color:grey;
+}
+div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+}
+  
+  label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    width: 100%;
+    padding: 10px;
+}
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+}
+  
+  textarea {
+    height: 250px;
+}
+  
+  hr {
+    border: 1px dotted #ccc;
+}
